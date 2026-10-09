@@ -58,7 +58,7 @@ int main() {
         << supprimerDernier(taille) << '\n';
 
 
-    // Une seule liberation du stockage encore possede, meme sur exception.
+    // Une seule liberation du stockage encore possede
     delete[] donnees;
     donnees = nullptr;
     return codeSortie;
