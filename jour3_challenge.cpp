@@ -53,7 +53,6 @@ int main() {
     afficher(donnees, taille, capacite); // Taille 9, capacite 16.
 
     while (supprimerDernier(taille)) {} // Vider sans liberer le stockage.
-    std::cout << std::boolalpha;
     std::cout << "Suppression sur collection vide : "
         << supprimerDernier(taille) << '\n';
 
