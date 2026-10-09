@@ -52,11 +52,6 @@ int main() {
     supprimerDernier(taille);
     afficher(donnees, taille, capacite); // Taille 9, capacite 16.
 
-    while (supprimerDernier(taille)) {} // Vider sans liberer le stockage.
-    std::cout << "Suppression sur collection vide : "
-        << supprimerDernier(taille) << '\n';
-
-
     // Une seule liberation du stockage encore possede
     delete[] donnees;
     donnees = nullptr;
